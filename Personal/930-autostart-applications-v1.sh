@@ -1,0 +1,23 @@
+#!/bin/bash
+#set -e
+##################################################################################################################
+#
+#   DO NOT JUST RUN THIS. EXAMINE AND JUDGE. RUN AT YOUR OWN RISK.
+#
+##################################################################################################################
+
+[ -d $HOME"/.config/autostart" ] || mkdir -p $HOME"/.config/autostart"
+
+sleep 1
+
+installed_dir=$(dirname $(readlink -f $(basename `pwd`)))
+
+
+cp -f $installed_dir/settings/autostart/* $HOME"/.config/autostart"
+
+#uncommenting here to know if the ArcoLinuxBs are completely done
+#gsettings set org.blueberry use-symbolic-icons false
+
+echo "################################################################"
+echo "####                      autostart added                 ######"
+echo "################################################################"
