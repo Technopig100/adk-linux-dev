@@ -7,16 +7,28 @@
 </defs>
 <g fill="none" stroke="black" stroke-width="1" fill-rule="evenodd" stroke-linecap="square" stroke-linejoin="bevel" >
 
-<g fill="#4e5358" fill-opacity="1" stroke="none" transform="matrix(2.5,0,0,2.5,2.5,2.5)"
+<g fill="#000080" fill-opacity="1" stroke="none" transform="matrix(3.34185,0,0,3.65229,-147.33,-56.2217)"
 font-family="Noto Sans" font-size="10" font-weight="400" font-style="normal" 
 >
-<circle cx="9" cy="9" r="9"/>
+<rect x="48.1934" y="21.6159" width="6.66589" height="1.84852"/>
 </g>
 
-<g fill="none" stroke="#2a2e32" stroke-opacity="1" stroke-width="1.01" stroke-linecap="round" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(2.5,0,0,2.5,2.5,2.5)"
+<g fill="none" stroke="#979797" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="4" transform="matrix(3.34185,0,0,3.65229,-147.33,-56.2217)"
+font-family="Noto Sans" font-size="10" font-weight="400" font-style="normal" 
+opacity="0.562212" >
+<rect x="48.1934" y="21.6159" width="6.66589" height="1.84852"/>
+</g>
+
+<g fill="none" stroke="none" transform="matrix(2.71653,0,0,3.27207,-19.653,-9.35677)"
 font-family="Noto Sans" font-size="10" font-weight="400" font-style="normal" 
 >
-<polyline fill="none" vector-effect="none" points="4,7 9,12 14,7 " />
+<path vector-effect="none" fill-rule="nonzero" d="M25.375,10.5 C25.375,14.5731 21.3735,17.875 16.4375,17.875 C11.5015,17.875 7.5,14.5731 7.5,10.5 C7.5,6.4269 11.5015,3.125 16.4375,3.125 C21.3735,3.125 25.375,6.4269 25.375,10.5 "/>
+</g>
+
+<g fill="none" stroke="#757575" stroke-opacity="1" stroke-width="0.53083" stroke-linecap="butt" stroke-linejoin="round" transform="matrix(2.71653,0,0,3.27207,-19.653,-9.35677)"
+font-family="Noto Sans" font-size="10" font-weight="400" font-style="normal" 
+opacity="0.188755" >
+<path vector-effect="none" fill-rule="nonzero" d="M25.375,10.5 C25.375,14.5731 21.3735,17.875 16.4375,17.875 C11.5015,17.875 7.5,14.5731 7.5,10.5 C7.5,6.4269 11.5015,3.125 16.4375,3.125 C21.3735,3.125 25.375,6.4269 25.375,10.5 "/>
 </g>
 
 <g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0,0)"

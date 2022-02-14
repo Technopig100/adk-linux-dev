@@ -10,7 +10,8 @@
 
 #sudo pacman -S --noconfirm --needed autorandr
 #sudo pacman -S --noconfirm --needed flameshot-git
-#sudo pacman -S --noconfirm --needed discord
+sudo pacman -S --noconfirm --needed discord
+sudo pacman -S --noconfirm --needed caprine
 #sudo pacman -S --noconfirm --needed nomacs
 #sudo pacman -S --noconfirm --needed gitfiend
 #sudo pacman -S --noconfirm --needed dropbox
@@ -35,9 +36,9 @@ sudo pacman -S --noconfirm --needed gitahead-bin
 
 #sudo pacman -S --noconfirm --needed the_platinum_searcher-bin
 
-sudo pacman -S --noconfirm --needed wps-office
-sudo pacman -S --noconfirm --needed ttf-wps-fonts
-sudo pacman -S --noconfirm --needed wps-office-mime
+#sudo pacman -S --noconfirm --needed wps-office
+#sudo pacman -S --noconfirm --needed ttf-wps-fonts
+#sudo pacman -S --noconfirm --needed wps-office-mime
 
 #sudo pacman -S --noconfirm --needed arcolinux-meta-fun
 

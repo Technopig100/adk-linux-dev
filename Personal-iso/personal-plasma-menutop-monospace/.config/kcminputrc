@@ -8,7 +8,4 @@ RepeatDelay=600
 RepeatRate=25
 
 [Mouse]
-cursorTheme=Bibata-Modern-Amber
-
-[Tmp]
-update_info=delete_cursor_old_default_size.upd:DeleteCursorOldDefaultSize
+cursorTheme=Oxygen_White
