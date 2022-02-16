@@ -15,7 +15,7 @@ XRenderSmoothScale=false
 
 [Desktops]
 Number=4
-Rows=2
+Rows=1
 
 [Plugins]
 cubeslideEnabled=false
