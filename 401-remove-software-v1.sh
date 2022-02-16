@@ -25,15 +25,11 @@ sudo pacman -Rs xf86-video-ati --noconfirm
 sudo pacman -Rs xf86-video-nouveau --noconfirm
 sudo pacman -Rs xf86-video-vesa --noconfirm
 sudo pacman -Rs intel-ucode --noconfirm
-<<<<<<< HEAD
 #sudo pacman -Rs amd-ucode --noconfirm
 sudo pacman -Rs virtualbox-guest-utils --noconfirm
 sudo pacman -Rs spice-vdagent --noconfirm
 sudo pacman -Rs xf86-input-synaptics --noconfirm
 #sudo pacman -Rs  --noconfirm
-=======
-sudo pacman -Rs amd-ucode --noconfirm
->>>>>>> a26a1d13bb8077fde2d8a72e772895daca6b24ec
 
 echo "################################################################"
 echo "################### software removed"
