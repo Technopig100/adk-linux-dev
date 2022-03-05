@@ -27,8 +27,8 @@ git config --global pull.rebase false
 git config --global user.name "Technopig100"
 git config --global user.email "technopig10@gmail.com"
 sudo git config --system core.editor nano
-#git config --global credential.helper cache
-#git config --global credential.helper 'cache --timeout=32000'
+git config --global credential.helper cache
+git config --global credential.helper 'cache --timeout=32000'
 git config --global push.default simple
 
 git remote set-url origin git@github.com:Technopig100/$project

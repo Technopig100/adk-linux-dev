@@ -40,11 +40,8 @@ sudo pacman -S --noconfirm --needed gitahead-bin
 #sudo pacman -S --noconfirm --needed ttf-wps-fonts
 #sudo pacman -S --noconfirm --needed wps-office-mime
 
-#sudo pacman -S --noconfirm --needed arcolinux-meta-fun
-
 #sudo pacman -S --noconfirm --needed simplescreenrecorder
 
-#sudo pacman -S --noconfirm --needed arcolinux-candy-beauty-git
 #sudo pacman -S --noconfirm --needed ayu-theme
 #sudo pacman -S --noconfirm --needed arc-darkest-theme-git
 

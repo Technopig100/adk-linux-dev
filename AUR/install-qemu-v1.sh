@@ -42,7 +42,7 @@ sudo systemctl enable libvirtd.service
 sudo systemctl start libvirtd.service
 
 
-echo -e "options kvm-intel nested=1" | sudo tee -a /etc/modprobe.d/kvm-intel.conf
+echo -e "options kvm-amd nested=1" | sudo tee -a /etc/modprobe.d/kvm-amd.conf
 
 user=$(whoami)
 sudo gpasswd -a $user libvirt

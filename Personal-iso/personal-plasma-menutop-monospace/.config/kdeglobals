@@ -97,33 +97,35 @@ ForegroundNormal=211,218,227
 ForegroundPositive=39,174,96
 ForegroundVisited=62,91,135
 
-[DirSelect Dialog]
-DirSelectDialog Size=811,598
-History Items[$e]=file:$HOME/Public,file:$HOME/Public,file:$HOME/Public,file:$HOME/Public,file:$HOME/Public,file:$HOME/Gitea/Gitea-ADK-Linux,file:$HOME/VBOX-SHARED,file:$HOME
-
 [General]
-AllowKDEAppsToRememberWindowPositions=false
+BrowserApplication=firefox.desktop
 ColorSchemeHash=9576ef87a0de1931c50aeb1831060260aa545ee6
 Name=Breeze Light
-UseSystemBell=true
+XftAntialias=true
+XftHintStyle=hintfull
+XftSubPixel=rgb
+fixed=Hack,9,-1,5,50,0,0,0,0,0,Regular
+font=Noto Sans,10,-1,5,50,0,0,0,0,0,Regular
+menuFont=Noto Sans,10,-1,5,50,0,0,0,0,0,Regular
 shadeSortColumn=true
-widgetStyle=Breeze
+smallestReadableFont=Noto Sans,10,-1,5,50,0,0,0,0,0,Regular
+toolBarFont=Noto Sans,10,-1,5,50,0,0,0,0,0,Regular
 
 [Icons]
 Theme=Flat-Remix-Blue-Dark
 
 [KDE]
-ColorScheme=BreezeLight
+ColorScheme=Breeze
 LookAndFeelPackage=Aritim-Dark
-ShowDeleteCommand=false
+ShowIconsInMenuItems=true
+ShowIconsOnPushButtons=true
 SingleClick=false
 contrast=4
-widgetStyle=Breeze
 
 [KFileDialog Settings]
 Allow Expansion=false
 Automatically select filename extension=true
-Breadcrumb Navigation=false
+Breadcrumb Navigation=true
 Decoration position=2
 LocationCombo Completionmode=5
 PathCombo Completionmode=5
@@ -132,19 +134,21 @@ Show Full Path=false
 Show Inline Previews=true
 Show Preview=false
 Show Speedbar=true
-Show hidden files=true
+Show hidden files=false
 Sort by=Name
 Sort directories first=true
-Sort reversed=true
-Speedbar Width=138
+Sort reversed=false
+Speedbar Width=167
 View Style=DetailTree
 
-[PreviewSettings]
-MaximumRemoteSize=0
+[Toolbar style]
+ToolButtonStyle=TextBesideIcon
+ToolButtonStyleOtherToolbars=TextBesideIcon
 
 [WM]
 activeBackground=20,26,33,216
 activeBlend=20,26,33
+activeFont=Noto Sans,10,-1,5,50,0,0,0,0,0,Regular
 activeForeground=211,218,227
 inactiveBackground=47,52,63
 inactiveBlend=47,52,63

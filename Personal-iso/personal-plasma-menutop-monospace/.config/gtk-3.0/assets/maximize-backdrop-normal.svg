@@ -7,33 +7,5 @@
 </defs>
 <g fill="none" stroke="black" stroke-width="1" fill-rule="evenodd" stroke-linecap="square" stroke-linejoin="bevel" >
 
-<g fill="#f7f7f7" fill-opacity="1" stroke="none" transform="matrix(3.34185,0,0,3.65229,-8.19832,-114.271)"
-font-family="Noto Sans" font-size="10" font-weight="400" font-style="normal" 
-opacity="0.630415" >
-<path vector-effect="none" fill-rule="nonzero" d="M9.15625,34.7188 L9.15625,37.125 L6.75,37.125 L6.75,38.9688 L9.15625,38.9688 L9.15625,41.4063 L11,41.4063 L11,38.9688 L13.4063,38.9688 L13.4063,37.125 L11,37.125 L11,34.7188 L9.15625,34.7188"/>
-</g>
-
-<g fill="none" stroke="#979797" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="4" transform="matrix(3.34185,0,0,3.65229,-8.19832,-114.271)"
-font-family="Noto Sans" font-size="10" font-weight="400" font-style="normal" 
-opacity="0.44977" >
-<path vector-effect="none" fill-rule="nonzero" d="M9.15625,34.7188 L9.15625,37.125 L6.75,37.125 L6.75,38.9688 L9.15625,38.9688 L9.15625,41.4063 L11,41.4063 L11,38.9688 L13.4063,38.9688 L13.4063,37.125 L11,37.125 L11,34.7188 L9.15625,34.7188"/>
-</g>
-
-<g fill="none" stroke="none" transform="matrix(2.71653,0,0,3.27207,-19.653,-9.35677)"
-font-family="Noto Sans" font-size="10" font-weight="400" font-style="normal" 
->
-<path vector-effect="none" fill-rule="nonzero" d="M25.375,10.5 C25.375,14.5731 21.3735,17.875 16.4375,17.875 C11.5015,17.875 7.5,14.5731 7.5,10.5 C7.5,6.4269 11.5015,3.125 16.4375,3.125 C21.3735,3.125 25.375,6.4269 25.375,10.5 "/>
-</g>
-
-<g fill="none" stroke="#757575" stroke-opacity="1" stroke-width="0.53083" stroke-linecap="butt" stroke-linejoin="round" transform="matrix(2.71653,0,0,3.27207,-19.653,-9.35677)"
-font-family="Noto Sans" font-size="10" font-weight="400" font-style="normal" 
-opacity="0.188755" >
-<path vector-effect="none" fill-rule="nonzero" d="M25.375,10.5 C25.375,14.5731 21.3735,17.875 16.4375,17.875 C11.5015,17.875 7.5,14.5731 7.5,10.5 C7.5,6.4269 11.5015,3.125 16.4375,3.125 C21.3735,3.125 25.375,6.4269 25.375,10.5 "/>
-</g>
-
-<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0,0)"
-font-family="Noto Sans" font-size="10" font-weight="400" font-style="normal" 
->
-</g>
 </g>
 </svg>

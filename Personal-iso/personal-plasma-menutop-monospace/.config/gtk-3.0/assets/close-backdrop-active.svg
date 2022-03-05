@@ -7,33 +7,5 @@
 </defs>
 <g fill="none" stroke="black" stroke-width="1" fill-rule="evenodd" stroke-linecap="square" stroke-linejoin="bevel" >
 
-<g fill="#800000" fill-opacity="1" stroke="none" transform="matrix(3.21889,0,0,3.49164,-145.037,-51.0872)"
-font-family="Noto Sans" font-size="10" font-weight="400" font-style="normal" 
->
-<path vector-effect="none" fill-rule="nonzero" d="M49.5002,18.7715 L52.0627,21.8064 L49.1896,24.8412 L51.7301,24.8337 L53.2365,23.1322 L54.7428,24.8337 L57.2327,24.8458 L54.3907,21.8285 L56.9531,18.7937 L54.7232,18.8012 L53.2169,20.5026 L51.7106,18.8012 L49.5002,18.7715 L49.5002,18.7715"/>
-</g>
-
-<g fill="none" stroke="#979797" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="4" transform="matrix(3.21889,0,0,3.49164,-145.037,-51.0872)"
-font-family="Noto Sans" font-size="10" font-weight="400" font-style="normal" 
-opacity="0.562212" >
-<path vector-effect="none" fill-rule="nonzero" d="M49.5002,18.7715 L52.0627,21.8064 L49.1896,24.8412 L51.7301,24.8337 L53.2365,23.1322 L54.7428,24.8337 L57.2327,24.8458 L54.3907,21.8285 L56.9531,18.7937 L54.7232,18.8012 L53.2169,20.5026 L51.7106,18.8012 L49.5002,18.7715 L49.5002,18.7715"/>
-</g>
-
-<g fill="none" stroke="none" transform="matrix(2.61658,0,0,3.12814,-18.01,-7.84552)"
-font-family="Noto Sans" font-size="10" font-weight="400" font-style="normal" 
->
-<path vector-effect="none" fill-rule="nonzero" d="M25.375,10.5 C25.375,14.5731 21.3735,17.875 16.4375,17.875 C11.5015,17.875 7.5,14.5731 7.5,10.5 C7.5,6.4269 11.5015,3.125 16.4375,3.125 C21.3735,3.125 25.375,6.4269 25.375,10.5 "/>
-</g>
-
-<g fill="none" stroke="#757575" stroke-opacity="1" stroke-width="1.23392" stroke-linecap="butt" stroke-linejoin="round" transform="matrix(2.61658,0,0,3.12814,-18.01,-7.84552)"
-font-family="Noto Sans" font-size="10" font-weight="400" font-style="normal" 
-opacity="0.188755" >
-<path vector-effect="none" fill-rule="nonzero" d="M25.375,10.5 C25.375,14.5731 21.3735,17.875 16.4375,17.875 C11.5015,17.875 7.5,14.5731 7.5,10.5 C7.5,6.4269 11.5015,3.125 16.4375,3.125 C21.3735,3.125 25.375,6.4269 25.375,10.5 "/>
-</g>
-
-<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0,0)"
-font-family="Noto Sans" font-size="10" font-weight="400" font-style="normal" 
->
-</g>
 </g>
 </svg>

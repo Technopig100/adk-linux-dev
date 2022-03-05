@@ -8,11 +8,7 @@
 
 #This is just an example
 #add anything to lhe list or delete applications here to keep them
-#you need to make your own script you can run after an ArcoLinux installation
-
-#once you get comfortable with linux & scripting take a look at
-#ArcoLinuxD = you run the scripts you want (including or excluding software)
-#ArcoLinuxB = you add or delete the packages you want on the iso
+#you need to make your own script you can run after an Adk-Linux installation
 
 sudo pacman -R --noconfirm evolution
 sudo pacman -R --noconfirm firefox

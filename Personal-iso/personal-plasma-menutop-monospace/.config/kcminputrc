@@ -8,4 +8,7 @@ RepeatDelay=600
 RepeatRate=25
 
 [Mouse]
-cursorTheme=Oxygen_White
+cursorTheme=Breeze_Snow
+
+[Tmp]
+update_info=delete_cursor_old_default_size.upd:DeleteCursorOldDefaultSize

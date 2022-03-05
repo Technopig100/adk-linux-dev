@@ -31,7 +31,7 @@ sudo pacman -Rs amd-ucode --noconfirm
 sudo pacman -Rs virtualbox-guest-utils --noconfirm
 sudo pacman -Rs spice-vdagent --noconfirm
 sudo pacman -Rs xf86-input-synaptics --noconfirm
-sudo pacman -Rs  --noconfirm
+#sudo pacman -Rs  --noconfirm
 
 echo "################################################################"
 echo "################### software removed"

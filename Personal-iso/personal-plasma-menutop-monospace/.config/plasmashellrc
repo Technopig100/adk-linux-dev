@@ -1,0 +1,15 @@
+[KFileDialog Settings]
+Recent Files[$e]=distributor-logo-adklinux(White).svg,file:///etc/xdg/adk-linux/distributor-logo-adklinux(White).svg
+Recent URLs[$e]=file:///,file:$HOME/,file:///etc/xdg/adk-linux/
+detailViewIconSize=16
+
+[PlasmaViews][Panel 2][Defaults]
+thickness=42
+
+[PlasmaViews][Panel 2][Horizontal1600]
+thickness=42
+
+[ScreenConnectors]
+
+[Updates]
+performed=/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/containmentactions_middlebutton.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/digitalclock_rename_timezonedisplay_key.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/klipper_clear_config.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/maintain_existing_desktop_icon_sizes.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/move_desktop_layout_config.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/no_middle_click_paste_on_panels.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/obsolete_kickoffrc.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/systemloadviewer_systemmonitor.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/unlock_widgets.js
