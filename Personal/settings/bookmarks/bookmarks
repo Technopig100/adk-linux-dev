@@ -2,24 +2,20 @@ file:///home/jacob/Documents
 file:///home/jacob/Downloads Downloads
 file:///home/jacob/Pictures Pictures
 file:///home/jacob/Videos Videos
-file:///home/jacob/.config/leftwm
 file:///etc/skel /etc/skel
 file:///home/jacob/.config .config
 file:///home/jacob/.local
 file:///home/jacob/ADK-Linux-Out
-file:///home/jacob/ADK-Linux/Build
-file:///home/jacob/ADK-Linux/Config/ADK-Build
-file:///home/jacob/ADK-Linux/Config/ADK-Complete
-file:///home/jacob/ADK-Linux/Config/ADK-Extras
-file:///home/jacob/ADK-Linux/Home
-file:///home/jacob/ADK-Linux/ISO
-file:///home/jacob/ADK-Linux/Pkgbuild
-file:///home/jacob/ADK-Linux/Repo's/adklinux_repo
-file:///home/jacob/ADK-Linux/Repo's/adklinux_test_repo
+file:///home/jacob/DATA/Build
+file:///home/jacob/DATA/Config
+file:///home/jacob/DATA/Home
+file:///home/jacob/DATA/Pkgbuild
+file:///home/jacob/DATA/Repo
+file:///home/jacob/DATA/Repo
 file:///usr/share/applications applications
 file:///home/jacob/.icons .icons
 file:///usr/share/icons icons
 file:///home/jacob/.themes .themes
 file:///usr/share/themes themes
-file:///home/jacob/ADK-Linux ADK-Linux
+file:///home/jacob/DATA DATA
 file:///personal personal
