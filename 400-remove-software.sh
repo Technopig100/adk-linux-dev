@@ -16,72 +16,31 @@
 #tput setaf 8 = light blue
 ##################################################################################################################
 
-# when on CARLI - remove conflicting files 
+# when on ADK-Linux - remove files 
 
-if [ -f /usr/local/bin/get-nemesis-on-carli ]; then
+if [ -f /etc/adk-release ]; then
 
   echo
   tput setaf 2
   echo "################################################################"
-  echo "################### Removing software from Carli"
+  echo "################### Removing software from Build"
   echo "################################################################"
   tput sgr0
   echo
   if [ -f /etc/skel/.bashrc ]; then
-    sudo rm /etc/skel/.bashrc
+    sudo rm /etc/skel/
+    sudo mkdir /etc/skel/
+    sudo rm /usr/local/bin/Installation_guide
+    sudo rm /usr/local/bin/livecd-sound
+
   fi  
-  sudo pacman -R --noconfirm carli-xfce-config
-  sudo pacman -R --noconfirm grml-zsh-config
-  sudo pacman -R --noconfirm systemd-resolvconf
-
-  echo
-  tput setaf 2
-  echo "################################################################"
-  echo "################### Software removed"
-  echo "################################################################"
-  tput sgr0
-  echo
-
-fi
-
-# when on ARISER - remove conflicting files 
-
-if [ -f /usr/local/bin/get-nemesis-on-ariser ]; then
-
-  echo
-  tput setaf 2
-  echo "################################################################"
-  echo "################### Removing software from ARISER"
-  echo "################################################################"
-  tput sgr0
-  echo
-  if [ -f /etc/skel/.bashrc ]; then
-    sudo rm /etc/skel/.bashrc
-  fi
-  #sudo rm /etc/skel/.Xresources
-  #sudo pacman -R --noconfirm grml-zsh-config
-
-  echo
-  tput setaf 2
-  echo "################################################################"
-  echo "################### Software removed"
-  echo "################################################################"
-  tput sgr0
-  echo 
-fi
-
-# when on ARCOLINUX - remove conflicting files
-
-if [ -f /usr/local/bin/get-nemesis-on-arcolinux ]; then
-  echo
-  tput setaf 2
-  echo "################################################################"
-  echo "#######Software to remove from an ArcoLinux installation"
-  echo "################################################################"
-  tput sgr0
-  echo
-
-  sudo systemctl disable tlp.service
+  sudo pacman -R --noconfirm adk-calamares-config-git
+  sudo pacman -R --noconfirm adk-system-installation-git
+  sudo pacman -R --noconfirm arch-install-scripts
+  sudo pacman -R --noconfirm archinstall
+  sudo pacman -R --noconfirm archiso
+  sudo pacman -R --noconfirm calamares
+  
   sudo pacman -Rs tlp --noconfirm
   sudo pacman -Rs broadcom-wl-dkms --noconfirm
   sudo pacman -Rs r8168-dkms --noconfirm
@@ -92,32 +51,9 @@ if [ -f /usr/local/bin/get-nemesis-on-arcolinux ]; then
   sudo pacman -Rs xf86-video-ati --noconfirm
   sudo pacman -Rs xf86-video-nouveau --noconfirm
   sudo pacman -Rs xf86-video-vesa --noconfirm
-
-  echo
-  tput setaf 2
-  echo "################################################################"
-  echo "################### Software removed"
-  echo "################################################################"
-  tput sgr0
-  echo
-
-fi
-
-# when on EOS - remove conflicting files
-
-if grep -q "ADK-Linux" /etc/adk-release; then
-
-  echo
-  tput setaf 2
-  echo "################################################################"
-  echo "############### Removing software for ADK-Linux"
-  echo "################################################################"
-  tput sgr0
-
-  if [ -f /etc/skel/.bashrc ]; then
-    sudo rm /etc/skel
-    sudo mkdir /etc/skel
-  fi
+  sudo pacman -Rs spice-vdagent --noconfirm
+  sudo pacman -Rs virtualbox-guest-utils --noconfirm
+  sudo pacman -Rs xf86-input-synaptics --noconfirm
 
   sudo pacman -R --noconfirm akregator
   sudo pacman -R --noconfirm discord
@@ -130,6 +66,7 @@ if grep -q "ADK-Linux" /etc/adk-release; then
   sudo pacman -R --noconfirm virtualbox-ext-oracle
   sudo pacman -R --noconfirm virtualbox-guest-iso
   sudo pacman -R --noconfirm amd-ucode
+  sudo pacman -R --noconfirm intel-ucode
   sudo pacman -R --noconfirm b43-fwcutter
   sudo pacman -R --noconfirm broadcom-wl
   sudo pacman -R --noconfirm broadcom-wl-dkms  
@@ -151,67 +88,19 @@ if grep -q "ADK-Linux" /etc/adk-release; then
   sudo pacman -R --noconfirm systemd-resolvconf
   sudo pacman -R --noconfirm xbitmaps
   sudo pacman -R --noconfirm xfburn
+
+  echo
+  tput setaf 2
+  echo "################################################################"
+  echo "################### Software removed"
+  echo "################################################################"
+  tput sgr0
+  echo
+
+fi
+
+sudo mkinitcpio -P
+
+sudo grub-mkconfig -o /boot/grub/grub.cfg
   
-  echo
-  tput setaf 2
-  echo "################################################################"
-  echo "################### Software removed"
-  echo "################################################################"
-  tput sgr0
-  echo
-
-fi
-
-# when on ALCI - remove conflicting files
-
-if [ -f /usr/local/bin/get-nemesis-on-alci ]; then
-
-  echo
-  tput setaf 2
-  echo "################################################################"
-  echo "############### Removing software for ALCI"
-  echo "################################################################"
-  tput sgr0
-
-  if [ -f /etc/skel/.bashrc ]; then
-    sudo rm /etc/skel/.bashrc
-  fi
-  sudo rm /etc/skel/.Xresources
-  sudo pacman -R --noconfirm amd-ucode
-  sudo pacman -R --noconfirm b43-fwcutter
-  sudo pacman -R --noconfirm broadcom-wl
-  sudo pacman -R --noconfirm broadcom-wl-dkms  
-  sudo pacman -Rs --noconfirm cloud-init
-  sudo pacman -R --noconfirm darkhttpd
-  sudo pacman -R --noconfirm dhcpcd
-  sudo pacman -R --noconfirm ell  
-  sudo pacman -R --noconfirm grml-zsh-config
-  sudo pacman -R --noconfirm iwd
-  sudo pacman -R --noconfirm kitty-terminfo
-  sudo pacman -R --noconfirm lftp
-  sudo pacman -R --noconfirm livecd-sounds
-  sudo pacman -R --noconfirm lua53
-  sudo pacman -R --noconfirm luit
-  sudo pacman -R --noconfirm lynx
-  sudo pacman -R --noconfirm mousepad
-  sudo pacman -R --noconfirm nmap
-  sudo pacman -R --noconfirm parole
-  sudo pacman -R --noconfirm systemd-resolvconf
-  sudo pacman -R --noconfirm xbitmaps
-  sudo pacman -R --noconfirm xfburn
-  sudo pacman -R --noconfirm xfce4-artwork
-  sudo pacman -R --noconfirm xterm
-  sudo pacman -Rs --noconfirm brltty
-  sudo pacman -Rs --noconfirm espeak-ng
-  sudo pacman -Rs --noconfirm espeakup
-
-  echo
-  tput setaf 2
-  echo "################################################################"
-  echo "################### Software removed"
-  echo "################################################################"
-  tput sgr0
-  echo
-
-fi
 

@@ -48,7 +48,7 @@ sudo pacman -S --noconfirm --needed bash-completion
 #sudo pacman -S --noconfirm --needed chromium
 sudo pacman -S --noconfirm --needed cpuid
 sudo pacman -S --noconfirm --needed curl
-sudo pacman -S --noconfirm --needed discord
+#sudo pacman -S --noconfirm --needed discord
 #sudo pacman -S --noconfirm --needed dmenu
 sudo pacman -S --noconfirm --needed downgrade
 sudo pacman -S --noconfirm --needed duf
@@ -61,21 +61,21 @@ sudo pacman -S --noconfirm --needed firefox
 #sudo pacman -S --noconfirm --needed flameshot-git
 #sudo pacman -S --noconfirm --needed font-manager
 #sudo pacman -S --noconfirm --needed galculator
-sudo pacman -S --noconfirm --needed gimp
+#sudo pacman -S --noconfirm --needed gimp
 sudo pacman -S --noconfirm --needed git
 #sudo pacman -S --noconfirm --needed gitahead-bin
 #sudo pacman -S --noconfirm --needed gitfiend
 sudo pacman -S --noconfirm --needed gnome-disk-utility
 #sudo pacman -S --noconfirm --needed gparted
-sudo pacman -S --noconfirm --needed grub-customizer
+#sudo pacman -S --noconfirm --needed grub-customizer
 #sudo pacman -S --noconfirm --needed gtop
 #sudo pacman -S --noconfirm --needed gvfs-smb
-sudo pacman -S --noconfirm --needed hardcode-fixer-git
+#sudo pacman -S --noconfirm --needed hardcode-fixer-git
 sudo pacman -S --noconfirm --needed hardinfo-gtk3
 sudo pacman -S --noconfirm --needed hddtemp
 sudo pacman -S --noconfirm --needed htop
 sudo pacman -S --noconfirm --needed hw-probe
-sudo pacman -S --noconfirm --needed inkscape
+#sudo pacman -S --noconfirm --needed inkscape
 #sudo pacman -S --noconfirm --needed insync
 #sudo pacman -S --noconfirm --needed kvantum
 sudo pacman -S --noconfirm --needed linux-firmware-qlogic
@@ -84,9 +84,9 @@ sudo pacman -S --noconfirm --needed linux-firmware-qlogic
 #sudo pacman -S --noconfirm --needed lshw
 sudo pacman -S --noconfirm --needed man-db
 sudo pacman -S --noconfirm --needed man-pages
-sudo pacman -S --noconfirm --needed mlocate
-sudo pacman -S --noconfirm --needed meld
-sudo pacman -S --noconfirm --needed mintstick-git
+#sudo pacman -S --noconfirm --needed mlocate
+#sudo pacman -S --noconfirm --needed meld
+#sudo pacman -S --noconfirm --needed mintstick-git
 #sudo pacman -S --noconfirm --needed most
 #sudo pacman -S --noconfirm --needed neofetch
 #sudo pacman -S --noconfirm --needed network-manager-applet
@@ -98,7 +98,7 @@ sudo pacman -S --noconfirm --needed mintstick-git
 #sudo pacman -S --noconfirm --needed numlockx
 #sudo pacman -S --noconfirm --needed oh-my-zsh-git
 #sudo pacman -S --noconfirm --needed openresolv
-sudo pacman -S --noconfirm --needed paru-bin
+#sudo pacman -S --noconfirm --needed paru-bin
 #sudo pacman -S --noconfirm --needed pavucontrol
 #sudo pacman -S --noconfirm --needed playerctl
 #sudo pacman -S --noconfirm --needed polkit-gnome
@@ -123,7 +123,7 @@ sudo pacman -S --noconfirm --needed system-config-printer
 #sudo pacman -S --noconfirm --needed time
 #sudo pacman -S --noconfirm --needed tree
 #sudo pacman -S --noconfirm --needed ttf-bitstream-vera
-sudo pacman -S --noconfirm --needed ttf-dejavu
+#sudo pacman -S --noconfirm --needed ttf-dejavu
 #sudo pacman -S --noconfirm --needed ttf-droid
 #sudo pacman -S --noconfirm --needed ttf-hack
 #sudo pacman -S --noconfirm --needed ttf-inconsolata
@@ -136,7 +136,7 @@ sudo pacman -S --noconfirm --needed variety
 #sudo pacman -S --noconfirm --needed vivaldi
 #sudo pacman -S --noconfirm --needed vivaldi-ffmpeg-codecs
 #sudo pacman -S --noconfirm --needed vivaldi-widevine
-sudo pacman -S --noconfirm --needed vlc
+#sudo pacman -S --noconfirm --needed vlc
 sudo pacman -S --noconfirm --needed wd719x-firmware
 sudo pacman -S --noconfirm --needed wget
 #sudo pacman -S --noconfirm --needed wttr
@@ -148,22 +148,22 @@ sudo pacman -S --noconfirm --needed yay-bin
 sudo systemctl enable avahi-daemon.service
 #sudo systemctl enable ntpd.service
 
-sudo pacman -S --noconfirm --needed pulseaudio-bluetooth
-sudo pacman -S --noconfirm --needed bluez
-sudo pacman -S --noconfirm --needed bluez-libs
-sudo pacman -S --noconfirm --needed bluez-utils
-sudo pacman -S --noconfirm --needed blueberry
+#sudo pacman -S --noconfirm --needed pulseaudio-bluetooth
+#sudo pacman -S --noconfirm --needed bluez
+#sudo pacman -S --noconfirm --needed bluez-libs
+#sudo pacman -S --noconfirm --needed bluez-utils
+#sudo pacman -S --noconfirm --needed blueberry
 
-sudo pacman -S --noconfirm --needed cups
-sudo pacman -S --noconfirm --needed cups-pdf
-sudo pacman -S --noconfirm --needed ghostscript
-sudo pacman -S --noconfirm --needed gsfonts
-sudo pacman -S --noconfirm --needed gutenprint
-sudo pacman -S --noconfirm --needed gtk3-print-backends
-sudo pacman -S --noconfirm --needed libcups
-sudo pacman -S --noconfirm --needed system-config-printer
-sudo pacman -S --noconfirm --needed sane
-sudo pacman -S --noconfirm --needed simple-scan
+#sudo pacman -S --noconfirm --needed cups
+#sudo pacman -S --noconfirm --needed cups-pdf
+#sudo pacman -S --noconfirm --needed ghostscript
+#sudo pacman -S --noconfirm --needed gsfonts
+#sudo pacman -S --noconfirm --needed gutenprint
+#sudo pacman -S --noconfirm --needed gtk3-print-backends
+#sudo pacman -S --noconfirm --needed libcups
+#sudo pacman -S --noconfirm --needed system-config-printer
+#sudo pacman -S --noconfirm --needed sane
+#sudo pacman -S --noconfirm --needed simple-scan
 
 #sudo pacman -S --noconfirm --needed rxvt-unicode
 #sudo pacman -S --noconfirm --needed urxvt-fullscreen
@@ -182,49 +182,6 @@ fi
 
 ###############################################################################################
 
-
-# when on Arch Linux
-
-if grep -q "Arch Linux" /etc/os-release; then
-  echo
-  tput setaf 2
-  echo "################################################################"
-  echo "############### Installing software for Arch Linux - Any desktop"
-  echo "################################################################"
-  tput sgr0
-  echo
-
-  echo
-  echo "################################################################"
-  echo "Getting latest /etc/nsswitch.conf from ArcoLinux"
-  echo "################################################################"
-  echo
-  sudo cp /etc/nsswitch.conf /etc/nsswitch.conf.bak
-  sudo wget https://raw.githubusercontent.com/arcolinux/arcolinuxl-iso/master/archiso/airootfs/etc/nsswitch.conf -O $workdir/etc/nsswitch.conf
-
-fi
-
-# when on xfce
-
-if [ -f /usr/share/xsessions/xfce.desktop ]; then
-
-  echo
-  tput setaf 2
-  echo "################################################################"
-  echo "################### Installing software for Xfce"
-  echo "################################################################"
-  tput sgr0
-  echo
-
-  sudo pacman -S --noconfirm --needed arcolinux-kvantum-theme-arc-git
-  sudo pacman -S --noconfirm --needed menulibre
-  sudo pacman -S --noconfirm --needed mugshot
-  sudo pacman -S --noconfirm --needed prot16-xfce4-terminal
-  sudo pacman -S --noconfirm --needed sardi-icons
-  sudo pacman -S --noconfirm --needed tempus-themes-xfce4-terminal-git
-  sudo pacman -S --noconfirm --needed xfce4-terminal-base16-colors-git
-
-fi
 
 echo
 tput setaf 2
