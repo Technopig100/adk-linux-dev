@@ -5,8 +5,8 @@ Font=Noto Sans Mono,10,-1,5,50,0,0,0,0,0
 [General]
 Name=adklinux
 Parent=FALLBACK/
-TerminalColumns=90
-TerminalRows=30
+TerminalColumns=120
+TerminalRows=23
 
 [Scrolling]
 HistoryMode=2

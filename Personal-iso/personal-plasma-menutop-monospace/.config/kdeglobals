@@ -98,57 +98,20 @@ ForegroundPositive=39,174,96
 ForegroundVisited=62,91,135
 
 [General]
-BrowserApplication=firefox.desktop
+AllowKDEAppsToRememberWindowPositions=false
 ColorSchemeHash=9576ef87a0de1931c50aeb1831060260aa545ee6
-Name=Breeze Light
-XftAntialias=true
-XftHintStyle=hintfull
-XftSubPixel=rgb
-fixed=Hack,9,-1,5,50,0,0,0,0,0,Regular
-font=Noto Sans,10,-1,5,50,0,0,0,0,0,Regular
-menuFont=Noto Sans,10,-1,5,50,0,0,0,0,0,Regular
-shadeSortColumn=true
-smallestReadableFont=Noto Sans,10,-1,5,50,0,0,0,0,0,Regular
-toolBarFont=Noto Sans,10,-1,5,50,0,0,0,0,0,Regular
 
 [Icons]
-Theme=ADK-Dark
+Theme=adk-dark
 
 [KDE]
-ColorScheme=Breeze
 LookAndFeelPackage=Aritim-Dark
-ShowIconsInMenuItems=true
-ShowIconsOnPushButtons=true
+ShowDeleteCommand=false
 SingleClick=false
-contrast=4
-
-[KFileDialog Settings]
-Allow Expansion=false
-Automatically select filename extension=true
-Breadcrumb Navigation=true
-Decoration position=2
-LocationCombo Completionmode=5
-PathCombo Completionmode=5
-Show Bookmarks=false
-Show Full Path=false
-Show Inline Previews=true
-Show Preview=false
-Show Speedbar=true
-Show hidden files=false
-Sort by=Name
-Sort directories first=true
-Sort reversed=false
-Speedbar Width=167
-View Style=DetailTree
-
-[Toolbar style]
-ToolButtonStyle=TextBesideIcon
-ToolButtonStyleOtherToolbars=TextBesideIcon
 
 [WM]
 activeBackground=20,26,33,216
 activeBlend=20,26,33
-activeFont=Noto Sans,10,-1,5,50,0,0,0,0,0,Regular
 activeForeground=211,218,227
 inactiveBackground=47,52,63
 inactiveBlend=47,52,63

@@ -1,0 +1,2 @@
+/etc/locale.conf: line 2: warning: setlocale: LC_NUMERIC: cannot change locale (en_US.UTF-8/UTF-8): Invalid argument
+/etc/locale.conf: line 2: warning: setlocale: LC_TIME: cannot change locale (en_US.UTF-8/UTF-8): Invalid argument

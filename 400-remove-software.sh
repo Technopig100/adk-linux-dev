@@ -39,7 +39,7 @@ if [ -f /etc/adk-release ]; then
   sudo pacman -R --noconfirm arch-install-scripts
   sudo pacman -R --noconfirm archinstall
   sudo pacman -R --noconfirm archiso
-  sudo pacman -R --noconfirm calamares
+  sudo pacman -R --noconfirm adk-calamares
   
   sudo pacman -Rs tlp --noconfirm
   sudo pacman -Rs broadcom-wl-dkms --noconfirm
