@@ -44,7 +44,7 @@ if [ -f /etc/adk-release ]; then
   sudo pacman -Rs tlp --noconfirm
   sudo pacman -Rs broadcom-wl-dkms --noconfirm
   sudo pacman -Rs r8168-dkms --noconfirm
-  sudo pacman -Rs xf86-video-amdgpu --noconfirm
+  #sudo pacman -Rs xf86-video-amdgpu --noconfirm
   sudo pacman -Rs xf86-video-fbdev --noconfirm
   sudo pacman -Rs xf86-video-openchrome --noconfirm
   sudo pacman -Rs xf86-video-vmware --noconfirm
@@ -52,6 +52,7 @@ if [ -f /etc/adk-release ]; then
   sudo pacman -Rs xf86-video-nouveau --noconfirm
   sudo pacman -Rs xf86-video-vesa --noconfirm
   sudo pacman -Rs spice-vdagent --noconfirm
+  sudo pacman -Rs --noconfirm qemu-guest-agent
   sudo pacman -Rs virtualbox-guest-utils --noconfirm
   sudo pacman -Rs xf86-input-synaptics --noconfirm
 
@@ -65,7 +66,7 @@ if [ -f /etc/adk-release ]; then
   sudo pacman -R --noconfirm virtualbox
   sudo pacman -R --noconfirm virtualbox-ext-oracle
   sudo pacman -R --noconfirm virtualbox-guest-iso
-  sudo pacman -R --noconfirm amd-ucode
+  #sudo pacman -R --noconfirm amd-ucode
   sudo pacman -R --noconfirm intel-ucode
   sudo pacman -R --noconfirm b43-fwcutter
   sudo pacman -R --noconfirm broadcom-wl
