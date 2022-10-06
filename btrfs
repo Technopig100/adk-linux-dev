@@ -1,0 +1,15 @@
+#!/bin/bash
+#set -e
+
+sudo btrfs filesystem usage /
+sudo btrfs filesystem usage /home
+sudo btrfs filesystem usage /var/cache
+
+## Create A snapshot of /home ##
+sudo btrfs subvolume snapshot /home /home/home-snapshot-1
+
+## List subvolumes under /home ##
+sudo btrfs subvolume list /home
+
+## Rollback snapshot subvolume ##
+Edit the fstab file ???
