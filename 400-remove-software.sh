@@ -57,12 +57,12 @@ if [ -f /etc/adk-release ]; then
   sudo pacman -Rs xf86-input-synaptics --noconfirm
 
   sudo pacman -R --noconfirm akregator
-  sudo pacman -R --noconfirm discord
-  sudo pacman -R --noconfirm caprine
-  sudo pacman -R --noconfirm mailspring
-  sudo pacman -R --noconfirm gimp
-  sudo pacman -R --noconfirm inkscape 
-  sudo pacman -R --noconfirm vlc
+  #sudo pacman -R --noconfirm discord
+  #sudo pacman -R --noconfirm caprine
+  #sudo pacman -R --noconfirm mailspring
+  #sudo pacman -R --noconfirm gimp
+  #sudo pacman -R --noconfirm inkscape 
+  #sudo pacman -R --noconfirm vlc
   sudo pacman -R --noconfirm virtualbox
   sudo pacman -R --noconfirm virtualbox-ext-oracle
   sudo pacman -R --noconfirm virtualbox-guest-iso
@@ -73,7 +73,7 @@ if [ -f /etc/adk-release ]; then
   sudo pacman -R --noconfirm broadcom-wl-dkms  
   sudo pacman -Rs --noconfirm cloud-init
   sudo pacman -R --noconfirm darkhttpd
-  sudo pacman -R --noconfirm dhcpcd
+  #sudo pacman -R --noconfirm dhcpcd
   sudo pacman -R --noconfirm ell  
   sudo pacman -R --noconfirm grml-zsh-config
   sudo pacman -R --noconfirm iwd

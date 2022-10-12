@@ -11,7 +11,7 @@
 
 installed_dir=$(dirname $(readlink -f $(basename `pwd`)))
 
-sh $installed_dir/AUR/install-cnijfilter2-mg7700-v*.sh
+sh $installed_dir/AUR/install-canon-mg7700-v1.sh
 
 echo "################################################################"
 echo "####        Software from AUR Repository installed        ######"
