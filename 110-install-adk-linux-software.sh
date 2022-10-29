@@ -47,7 +47,7 @@ if grep -q adklinux_repo /etc/pacman.conf; then
   sudo pacman -Sy
 fi
 
-sudo pacman -S --noconfirm --needed adklinux-spices-git
+#sudo pacman -S --noconfirm --needed adklinux-spices-git
 sudo pacman -S --noconfirm --needed adk-wallpaper-git
 
 ###############################################################################
