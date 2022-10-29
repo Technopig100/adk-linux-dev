@@ -16,7 +16,11 @@ adk-linux-root-git            = .bashrc files for ADK-Linux
 adk-dark-git                  = Dark icon theme
 aritim-dark-gtk-git           = Theme for gnome/gtk Applications in ADK-Linux
 aritim-dark-kde-git           = Plasma Theme for ADK-Linux    
+adk-linux-meta-netdic         = List of pkg's to install avahi and enable network discovry
+adk-linux-meta-plasma         = List of pkg's to install plasma 
+adk-linux-meta-samba          = List of pkg's to install samba
+adk-linux-meta-steam-amd      = Steam for amd
+adk-linux-meta-virtualbox     = List of pkg's to install virtualbox
 
-adk-bluetooth-enable-git      = Enable bluetooth
-adk-ssh-enable-git            = Enable SSH
-adk-printer-enable-git        = Enable Printer services
+
+

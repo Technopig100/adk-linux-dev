@@ -28,9 +28,10 @@ sudo pacman -Sy
 
 sh 400-remove-software*
 
+sh 100-install-plasma-desktop-software*
 sh 110-install-adk-linux-software*
 sh 120-install-core-software*
-#sh 130-install-leftwm*
+
 
 echo
 tput setaf 2

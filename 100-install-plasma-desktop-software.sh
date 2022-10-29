@@ -47,12 +47,6 @@ if grep -q adklinux_repo /etc/pacman.conf; then
   sudo pacman -Sy
 fi
 
-sudo pacman -S --noconfirm --needed adk-wallpaper-git
-
-###############################################################################
-
-# when on Plasma
-
 if [ -f /usr/bin/startplasma-x11 ]; then
 
   echo
@@ -67,6 +61,10 @@ if [ -f /usr/bin/startplasma-x11 ]; then
   sudo pacman -S --noconfirm --needed adk-dark-git
   sudo pacman -S --noconfirm --needed adk-min-plasma-git
   sudo pacman -S --noconfirm --needed aritim-dark-kde-git
+
+else
+  sudo pacman -S --noconfirm --needed adk-linux-meta-plasma
+
 fi
 
 echo
@@ -76,6 +74,3 @@ echo "################### Done"
 echo "################################################################"
 tput sgr0
 echo
-
-
-
