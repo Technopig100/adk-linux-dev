@@ -28,7 +28,7 @@ echo
 sudo pacman -S modprobed-db --noconfirm --needed
 modprobed-db
 modprobed-db store
-systemctl --user enable --now modprobed-db.service
+sudo systemctl --user enable --now modprobed-db.service
 
 echo
 tput setaf 2
